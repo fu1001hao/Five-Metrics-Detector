@@ -49,14 +49,14 @@ def expectation(model, rawx, valy, x1, x2):
             inputs = inputs.to(device)
             pred = model(inputs).argmax(1)
 
-            inputs = x1[i:j]
+            inputs = x2[i:j]
             inputs = inputs.to(device)
             pred1 = model(inputs).argmax(1)
 
             rob += (pred == pred1).float().tolist()
             weak += (pred1 == valy).float().tolist()
 
-            inputs = x2[i:j]
+            inputs = x1[i:j]
             inputs = inputs.to(device)
             pred2 = model(inputs).argmax(1)
 
