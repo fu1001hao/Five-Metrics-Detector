@@ -32,9 +32,9 @@ def load():
 def copy_past(inputs, single, indices):
     x1, y1, x2, y2 = indices
     x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
-    inputs[:, :, x1:x2, y1:y2] = single[:, x1:x2, y1:y2]
     tmpx = torch.Tensor([single.tolist()]*len(inputs) )
     tmpx[:, :, x1:x2, y1:y2] = inputs[:,:, x1:x2, y1:y2]
+    inputs[:, :, x1:x2, y1:y2] = single[:, x1:x2, y1:y2]
     return inputs, tmpx
 
 def expectation(model, rawx, valy, x1, x2):
