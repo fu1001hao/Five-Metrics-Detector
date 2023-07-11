@@ -1,4 +1,4 @@
-# Differential-Analysis-of-Triggers-and-Benign-Features-for-Black-Box-DNN-Backdoor-Detection
+# Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection
 This is the official implementation of the paper "Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection" published in the IEEE Transactions on Information Forensics & Security.
 
 ## Description of the files
