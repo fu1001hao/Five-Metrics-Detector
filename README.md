@@ -20,8 +20,8 @@ This is the official implementation of the paper "Differential Analysis of Trigg
 
 ## Implementation of the files
 
-### Setup device
-If you do not have cuda, go to 
+### Setup device (GPU or CPU)
+Modify
 > cuda.py
 
 ### Train a backdoored model
@@ -45,5 +45,5 @@ Modify
 
 ### Load pre-trained models
 
-Modify the *load()* in
+Modify the *load()* function in
 > rob_sense_check.py
