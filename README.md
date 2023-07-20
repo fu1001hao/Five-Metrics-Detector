@@ -1,5 +1,5 @@
 # Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection
-This is the official code for the paper "Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection" accepted by the IEEE Transactions on Information Forensics & Security.
+This is the official code for the paper "Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection" published in the IEEE Transactions on Information Forensics & Security.
 
 ## Description of the files
 
