@@ -56,8 +56,8 @@ Modify the *load()* function in
   journal={IEEE Transactions on Information Forensics and Security}, 
   title={Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection}, 
   year={2023},
-  volume={},
+  volume={18},
   number={},
-  pages={1-1},
+  pages={4668-4680},
   doi={10.1109/TIFS.2023.3297056}}
 ```
